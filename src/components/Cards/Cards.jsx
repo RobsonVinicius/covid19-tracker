@@ -18,27 +18,47 @@ const cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               <CountUp
                 start={0}
                 end={confirmed.value}
-                duration={2.5}
+                duration={1.5}
                 separator="."
               />              
             </Typography>
-            <Typography color="textSecondary" gutterBottom>Data atual</Typography>
+            <Typography color="textSecondary" gutterBottom>
+              {new Date(lastUpdate).toLocaleDateString()}  
+            </Typography>
             <Typography variant="body2">Números de casos ativos de COVID-19</Typography>
           </CardContent>
         </Grid>
         <Grid item component={Card}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>Recuperados</Typography>
-            <Typography variant="h5">Banco de Dados</Typography>
-            <Typography color="textSecondary" gutterBottom>Data atual</Typography>
+            <Typography variant="h5">
+              <CountUp
+                start={0}
+                end={recovered.value}
+                duration={1.5}
+                separator="."
+              />              
+            </Typography>
+            <Typography color="textSecondary" gutterBottom>
+              {new Date(lastUpdate).toLocaleDateString()}  
+            </Typography>
             <Typography variant="body2">Números de recuperados de COVID-19</Typography>
           </CardContent>
         </Grid>
         <Grid item component={Card}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>Mortes</Typography>
-            <Typography variant="h5">Banco de Dados</Typography>
-            <Typography color="textSecondary" gutterBottom>Data atual</Typography>
+            <Typography variant="h5">
+              <CountUp
+                start={0}
+                end={deaths.value}
+                duration={1.5}
+                separator="."
+              />              
+            </Typography>
+            <Typography color="textSecondary" gutterBottom>
+              {new Date(lastUpdate).toLocaleDateString()}  
+            </Typography>
             <Typography variant="body2">Números de mortos por COVID-19</Typography>
           </CardContent>
         </Grid>
