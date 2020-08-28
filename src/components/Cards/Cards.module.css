@@ -4,6 +4,57 @@
 
 .card {
   margin: 0 2% !important;
+  background-color: #202024 !important;
+  
 }
 
-/* #202024 */
+.infected {
+  border-bottom: 10px solid yellow;  
+  color: #fff;
+}
+
+.infectedTitle {
+  color: yellow;
+}
+
+.infectedNumber {
+  color: rgb(230, 230, 69);
+}
+
+.infectedDate, .infectedText {
+  color:#a8a8b3;
+}
+
+.recovered {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5)
+}
+
+.recoveredTitle {
+  color: rgb(0, 255, 0)
+}
+
+.recoveredNumber {
+  color: rgb(116, 250, 116)
+}
+
+.recoveredDate, .recoveredText {
+  color:#a8a8b3;
+}
+
+.deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5)
+}
+
+.deathsTitle {
+  color: rgb(218, 51, 51)
+}
+
+.deathsNumber {
+  color: rgb(218, 90, 90)
+}
+
+.deathsDate, .deathsText {
+  color:#a8a8b3;
+}
+
+
