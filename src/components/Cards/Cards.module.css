@@ -9,52 +9,58 @@
 }
 
 .infected {
-  border-bottom: 10px solid yellow;  
+  border-bottom: 5px solid yellow;  
   color: #fff;
 }
 
 .infectedTitle {
-  color: yellow;
+  color: yellow;  
 }
 
 .infectedNumber {
   color: rgb(230, 230, 69);
+  padding-bottom: 10px;
 }
 
 .infectedDate, .infectedText {
-  color:#a8a8b3;
+  color:#a8a8b3;  
+  padding-bottom: 10px;
 }
 
 .recovered {
-  border-bottom: 10px solid rgba(0, 255, 0, 0.5)
+  border-bottom: 5px solid rgba(0, 255, 0, 0.5)
 }
 
 .recoveredTitle {
-  color: rgb(0, 255, 0)
+  color: rgb(0, 255, 0);  
 }
 
 .recoveredNumber {
-  color: rgb(116, 250, 116)
+  color: rgb(116, 250, 116);
+  padding-bottom: 10px;
 }
 
 .recoveredDate, .recoveredText {
   color:#a8a8b3;
+  padding-bottom: 10px;
 }
 
 .deaths {
-  border-bottom: 10px solid rgba(255, 0, 0, 0.5)
+  border-bottom: 5px solid rgba(255, 0, 0, 0.5)
 }
 
 .deathsTitle {
-  color: rgb(218, 51, 51)
+  color: rgb(218, 51, 51);
 }
 
 .deathsNumber {
-  color: rgb(218, 90, 90)
+  color: rgb(218, 90, 90);
+  padding-bottom: 10px;
 }
 
 .deathsDate, .deathsText {
   color:#a8a8b3;
+  padding-bottom: 10px;
 }
 
 

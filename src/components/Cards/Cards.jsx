@@ -40,7 +40,7 @@ const cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                 separator="."
               />              
             </Typography>
-            <Typography className={cx(styles.infectedDate)} gutterBottom>
+            <Typography className={cx(styles.recoveredDate)} gutterBottom>
               {new Date(lastUpdate).toLocaleDateString()}  
             </Typography>
             <Typography variant="body2" className={cx(styles.recoveredText)}>Números de recuperados de COVID-19</Typography>
