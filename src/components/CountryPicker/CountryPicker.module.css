@@ -1,0 +1,11 @@
+.FormControl {
+  width: 30%;
+  margin-bottom: 30px !important;    
+}
+
+.FormControl select, .FormControl svg {
+  color: #a8a8b3;    
+  background: #202024 !important;
+  padding-left: 8px;
+  padding-right: 3px
+}
