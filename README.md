@@ -30,3 +30,16 @@ https://covid19-tracker-base.vercel.app
 <p align="center">
   <img src="public/preview-global-mobile.png" alt="Preview Mobile Global"/>  
 </p>
+<br><br>
+
+## Install
+
+```sh
+yarn install
+```
+
+## Usage
+
+```sh
+yarn run start
+```
