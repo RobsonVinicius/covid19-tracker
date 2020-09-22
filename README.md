@@ -7,9 +7,11 @@ Os números apresentados podem ser consultados de maneira global ou exibido por 
 + React 
   + JSX
   + CSS
-
-
-
+  
+## Dependências
++ Material UI v.4.11.0
++ Chartjs
++ Countup
 
 ![Preview Desktop Global](public/preview-global.png)<br><br>
 ![Preview Desktop por País](public/preview-country.png)<br><br>
