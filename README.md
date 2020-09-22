@@ -13,6 +13,8 @@ Countup | Animação de números | 4.3.3 | https://www.npmjs.com/package/react-c
 Axios | Requisições, utilizado para consumir e exibir dados da api | 0.20.0 | https://github.com/axios/axios
 
 ## Demo
+https://covid19-tracker-base.vercel.app
+<br>
 
 ## Preview Desktop
 ![Preview Desktop Global](public/preview-global.png)<br><br>
