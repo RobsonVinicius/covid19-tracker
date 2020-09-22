@@ -4,12 +4,10 @@ Projeto criado em React de um Rastreador de Coronavírus que apresenta os dados 
 Os números apresentados podem ser consultados de maneira global ou exibido por países.
 
 ## Tecnologias 
-+ React 
++ React (Uma biblioteca JavaScript para criar interfaces de usuário) 
   + JSX
   + CSS
-  
-## Dependências
-+ Material UI v.4.11.0
++ Material UI v.4.11.0 (Biblioteca de componentes React) https://material-ui.com/pt/
 + Chartjs
 + Countup
 
