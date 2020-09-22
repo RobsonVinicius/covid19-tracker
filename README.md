@@ -7,8 +7,8 @@ Os números apresentados podem ser consultados de maneira global ou exibido por 
 Tecnlogia | Descrição | Versão | Site
 ------------ | ------------- | ------------ | ------------
 React | Uma biblioteca JavaScript para criar interfaces de usuário | 16.13.1 | https://pt-br.reactjs.org/
-Content in the first column | Content in the second column
-
+Material UI | Biblioteca de componentes React | 4.11.0 | https://material-ui.com/pt/
+Chart.js | Para criação de gráficos | 2.9.3 | https://www.chartjs.org/
 
 + React (Uma biblioteca JavaScript para criar interfaces de usuário) | https://pt-br.reactjs.org/
   + JSX
