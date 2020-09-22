@@ -4,6 +4,12 @@ Projeto criado em React de um Rastreador de Coronavírus que apresenta os dados 
 Os números apresentados podem ser consultados de maneira global ou exibido por países.
 
 ## Tecnologias 
+Tecnlogia | Descrição | Versão | Site
+------------ | ------------- | ------------ | ------------
+React | Uma biblioteca JavaScript para criar interfaces de usuário | 16.13.1 | https://pt-br.reactjs.org/
+Content in the first column | Content in the second column
+
+
 + React (Uma biblioteca JavaScript para criar interfaces de usuário) | https://pt-br.reactjs.org/
   + JSX
   + CSS
