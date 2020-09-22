@@ -4,9 +4,9 @@ Projeto criado em React de um Rastreador de Coronavírus que apresenta os dados 
 Os números apresentados podem ser consultados de maneira global ou exibido por países.
 
 ## Tecnologias 
-• React 
-  • JSX
-  • CSS
++ React 
+  + JSX
+  + CSS
 
 
 
