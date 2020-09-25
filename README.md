@@ -3,7 +3,7 @@
 Projeto criado em React de um Rastreador de Coronavírus que apresenta os dados de pessoas infectadas, recuperadas e mortas.
 Os números apresentados podem ser consultados de maneira global ou exibido por países.
 
-## Tecnologias 
+## Tecnologias utilizadas
 Tecnologia | Descrição | Versão | Site
 ------------ | ------------- | ------------ | ------------
 React | Uma biblioteca JavaScript para criar interfaces de usuário | 16.13.1 | https://pt-br.reactjs.org/
@@ -12,7 +12,7 @@ Chart.js | Para criação de gráficos | 2.9.3 | https://www.chartjs.org/
 Countup | Animação de números | 4.3.3 | https://www.npmjs.com/package/react-countup
 Axios | Requisições, utilizado para consumir e exibir dados da api | 0.20.0 | https://github.com/axios/axios
 
-## API
+## API usada
 https://covid19.mathdro.id/api
 
 ## Demo
