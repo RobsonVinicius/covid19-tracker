@@ -11,7 +11,9 @@ Material UI | Biblioteca de componentes React | 4.11.0 | https://material-ui.com
 Chart.js | Para criação de gráficos | 2.9.3 | https://www.chartjs.org/
 Countup | Animação de números | 4.3.3 | https://www.npmjs.com/package/react-countup
 Axios | Requisições, utilizado para consumir e exibir dados da api | 0.20.0 | https://github.com/axios/axios
+
 <br><br>
+
 ## API usada
 https://covid19.mathdro.id/api
 <br><br>
