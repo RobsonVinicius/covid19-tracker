@@ -17,7 +17,7 @@ Axios | Requisições, utilizado para consumir e exibir dados da api | 0.20.0 | 
 ## API usada
 https://covid19.mathdro.id/api
 <br><br>
-## Demo
+## Live Demo
 https://covid19-tracker-base.vercel.app
 <br><br>
 
