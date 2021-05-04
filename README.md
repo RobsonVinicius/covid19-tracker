@@ -14,7 +14,7 @@ Axios | Requisições, utilizado para consumir e exibir dados da api | 0.20.0 | 
 
 <br><br>
 
-## API usada
+## API utilizada
 https://covid19.mathdro.id/api
 <br><br>
 ## Live Demo
