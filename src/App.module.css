@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #121214;  
+  background-color: #141724;  
   font-family: sans-serif;
 }
 
@@ -14,8 +14,8 @@ body {
 }
 
 .logo {
-  width: 370px;  
-  margin-top: 50px;
+  width: 305px;  
+  margin-top: 30px;
 }
 
 @media (max-width:770px) {

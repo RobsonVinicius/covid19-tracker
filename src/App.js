@@ -9,7 +9,7 @@ import { Cards, Chart, CountryPicker } from './components';
 
 import { fetchData } from './api';
 import styles from './App.module.css';
-import coronaLogo from './images/logo-covid19.png';
+import coronaLogo from './images/logo-covid19.svg';
 
 
 class App extends React.Component {
