@@ -2,5 +2,11 @@
   display: flex;
   justify-content: center;
   width: 55%;
-  background: #242738;  
+  background: #242738;    
+}
+
+@media (max-width:768px) { 
+  .container {
+    width: 93%;          
+  }
 }

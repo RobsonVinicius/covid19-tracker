@@ -24,17 +24,20 @@ const Chart = ({ data: {confirmed, deaths, recovered }, country }) => {
           datasets: [{
             data: dailyData.map(({ confirmed }) => confirmed ),
             label: 'Infectados',
-            borderColor: '#3333ff',
-            fill: true,
+            backgroundColor: '#8ca0fa',
+            borderColor: '#3333ff',            
+            fill: true,            
           }, {
             data: dailyData.map(({ deaths }) => deaths ),
             label: 'Mortos',
             borderColor: 'red',
-            backgroundColor: 'rbga(255, 0, 0, 0.5)',
-            fill: true,
+            backgroundColor: '#fa8c8c',            
+            fill: true,            
           }], 
-        }}
+        }}        
+
       />) : null
+      
   );
 
   const barChart = (
@@ -44,25 +47,25 @@ const Chart = ({ data: {confirmed, deaths, recovered }, country }) => {
         data={{
           labels: ['Infectados', 'Recuperados', 'Mortos'],
           datasets: [{
-            label: 'Pessoas',
+            label: 'Pessoas',            
             backgroundColor: [
               'rgba(0, 0, 255, 0.5)',
               'rgba(0, 255, 0, 0.5)',
               'rgba(255, 0, 0, 0.5)',
             ],
-            data:[confirmed.value, recovered.value, deaths.value]
+            data:[confirmed.value, recovered.value, deaths.value],
           }]
         }}
         options={{
+          responsive: true,
           legend: { display: false },
-          title: { display: true, text: `Estado atual: ${country}`},       
+          title: { display: true, text: `Estado atual: ${country}`, fontColor: '#fff'},              
         }}
 
       />
       ) : null    
   );
   
-
   return (
     <div className={styles.container}>
       {country ? barChart : lineChart}

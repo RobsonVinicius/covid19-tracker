@@ -5,8 +5,14 @@
 }
 
 .FormControl select, .FormControl svg {
-  color: #a8a8b3;    
+  color: #cecece;    
   background: #242738 !important;
   padding-left: 8px;
   padding-right: 3px
+}
+
+@media (max-width:768px) { 
+  .FormControl {
+    width: 93%;
+  }
 }
